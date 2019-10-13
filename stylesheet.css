@@ -1,16 +1,28 @@
-/* body {
+body {
   background-image: linear-gradient(to right, white, cyan);
-} */
+}
 
-/* div {
+div {
   padding: 20px;
-} */
+}
+
+
+#main {
+  position: absolute;
+  height: auto;
+  padding: 8px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
 
 .bike {
   background-image: linear-gradient(to right, orange, yellow);
   border-radius: 15%;
   border: 3px solid orange;
   padding: 20px;
+  height: 500px;
+  width: 48%
 }
 
 .biketitle {
@@ -28,35 +40,27 @@ img {
   border-width: 6px;
 }
 
-#main {
-  position: absolute;
-  height: 260px;
-  padding: 8px;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
 
+
+.bikesblock {
+  position: relative;
+  top: 350px;
+}
 #kymco {
   top: 260px; /*height of #main is 96, and 37 for title; and margins around titles*/
-    position: relative;
-  right: 50;
-  width: 45%;
-  height: 25%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 
 #hornet {
-  position: relative;
+  position: absolute;
   top: 0px;
-  left: 50%;
-  width: 45%;
-  /* height: 25%; */
+  left: 55%;
 }
 
 #cbf {
-  position: relative;
-  top: 50px;
-  width: 45%;
-  height: 25%;
-  left: 25%;
+  position: absolute;
+  top: calc(24% + 546px);
+  left: 26%;
 }
