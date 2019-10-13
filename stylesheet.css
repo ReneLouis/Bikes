@@ -1,0 +1,62 @@
+/* body {
+  background-image: linear-gradient(to right, white, cyan);
+} */
+
+/* div {
+  padding: 20px;
+} */
+
+.bike {
+  background-image: linear-gradient(to right, orange, yellow);
+  border-radius: 15%;
+  border: 3px solid orange;
+  padding: 20px;
+}
+
+.biketitle {
+  color: green;
+  font-style: italic;
+  font-size: 24px;
+  font-family: Lobster; /*calling Google font "Lobster". To use this need to add link on html page */
+}
+
+img {
+  width: 80%;
+  border-radius: 35%;
+  border-style: groove;
+  border-color: silver;
+  border-width: 6px;
+}
+
+#main {
+  position: absolute;
+  height: 260px;
+  padding: 8px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+}
+
+#kymco {
+  top: 260px; /*height of #main is 96, and 37 for title; and margins around titles*/
+    position: relative;
+  right: 50;
+  width: 45%;
+  height: 25%;
+}
+
+#hornet {
+  position: relative;
+  top: 0px;
+  left: 50%;
+  width: 45%;
+  /* height: 25%; */
+}
+
+#cbf {
+  position: relative;
+  top: 50px;
+  width: 45%;
+  height: 25%;
+  left: 25%;
+}
