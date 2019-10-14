@@ -33,12 +33,15 @@ div {
   font-family: Lobster; /*calling Google font "Lobster". To use this need to add link on html page */
 }
 
-img {
+.indeximg {
   width: 80%;
   border-radius: 35%;
   border-style: groove;
   border-color: silver;
   border-width: 6px;
+  position: absolute;
+  left: calc(10% - 6px); /*half image is 40% + 6px border, hence leftover of 10% - 6px each side*/
+  bottom: calc(10% - 6px);
 }
 
 
