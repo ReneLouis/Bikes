@@ -20,10 +20,11 @@ div {
 }
 
 .bike {
-  background-image: linear-gradient(to right, orange, yellow);
+  background-image: linear-gradient(to right, grey, black);
+  color: white;
   border-radius: 15%;
   margin: calc(1%-3px);
-  border: 3px solid orange;
+  border: 3px solid white;
   padding: 2%;
   height: 500px;
   width: 44%
