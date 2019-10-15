@@ -1,5 +1,6 @@
 body {
-  background-image: linear-gradient(to right, white, cyan);
+  /* background-image: linear-gradient(to right, white, cyan); */
+  background-image: url("Background.jpeg")
 }
 
 div {
@@ -10,9 +11,11 @@ div {
 #main {
   position: absolute;
   height: auto;
+  color: white;
   padding: 8px;
   border-width: 2px;
-  border-color: black;
+  border-color: white;
+  border-radius: 15px;
   border-style: solid;
 }
 
