@@ -3,10 +3,9 @@ body {
   background-image: url("Background.jpeg")
 }
 
-div {
+/* div {
   padding: 20px;
-}
-
+} */
 
 #main {
   position: absolute;
@@ -21,6 +20,7 @@ div {
 
 .bike {
   background-image: linear-gradient(to right, grey, black);
+  position: absolute;
   color: white;
   border-radius: 15%;
   margin: calc(1%-3px);
@@ -28,6 +28,11 @@ div {
   padding: 2%;
   height: 500px;
   width: 44%
+}
+
+.sub {
+  position: relative;
+  height: 50%;
 }
 
 .biketitle {
@@ -48,12 +53,15 @@ div {
   bottom: calc(10% - 6px);
 }
 
-
-
 .bikesblock {
   position: relative;
   top: 350px;
 }
+
+.click {
+  color: silver;
+}
+
 #kymco {
   top: 0px; /*height of #main is 96, and 37 for title; and margins around titles*/
   position: absolute;
