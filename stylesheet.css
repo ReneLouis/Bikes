@@ -36,7 +36,7 @@ body {
 }
 
 .biketitle {
-  color: green;
+  color: silver;
   font-style: italic;
   font-size: 24px;
   font-family: Lobster; /*calling Google font "Lobster". To use this need to add link on html page */
