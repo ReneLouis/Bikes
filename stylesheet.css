@@ -80,3 +80,34 @@ body {
   top: calc(24% + 546px);
   left: 26%;
 }
+
+#block {
+  position: relative;
+}
+
+.menu {
+  position: relative;
+  top: 25px;
+  height: 50px;
+  left: 10%;
+  right:10%;
+}
+.boxi {
+  position:absolute;
+  width:33%;
+}
+.box1{
+  position: absolute;
+  width: 33%;
+  left: 33%;
+}
+.box2 {
+  position: absolute;
+  width: 33%;
+  left: 66%
+}
+.content {
+  position: relative;
+  top: 25px;
+
+}
