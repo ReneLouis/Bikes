@@ -1,16 +1,39 @@
-/* body {
-  background-image: linear-gradient(to right, white, cyan);
-} */
-
-/* div {
-  padding: 20px;
-} */
-
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  max-width: 800px;
+  margin: 0 auto;
+  /* background-image: linear-gradient(to right, white, cyan); */
+  background-image: url(Background.jpeg);
+}
+p, h1, h2, h3, a {color: white;}
+main {
+  /* position: absolute; */
+  /* height: 260px; */
+  padding: 8px;
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  overflow: auto;
+  /* float: left; */
+}
+.container{
+  float: left;
+}
 .bike {
+  width: 70%;
+  margin: 5px auto;
   background-image: linear-gradient(to right, orange, yellow);
   border-radius: 15%;
   border: 3px solid orange;
   padding: 20px;
+  height: 450px;
+  /* float:left; */
+  overflow-x: scroll;
 }
 
 .biketitle {
@@ -22,41 +45,20 @@
 
 img {
   width: 80%;
+  display: block;
+  margin: 0 auto;
   border-radius: 35%;
   border-style: groove;
   border-color: silver;
   border-width: 6px;
 }
-
-#main {
-  position: absolute;
-  height: 260px;
-  padding: 8px;
-  border-width: 2px;
-  border-color: black;
-  border-style: solid;
-}
-
-#kymco {
-  top: 260px; /*height of #main is 96, and 37 for title; and margins around titles*/
-    position: relative;
-  right: 50;
-  width: 45%;
-  height: 25%;
-}
-
-#hornet {
-  position: relative;
-  top: 0px;
-  left: 50%;
-  width: 45%;
-  /* height: 25%; */
-}
-
-#cbf {
-  position: relative;
-  top: 50px;
-  width: 45%;
-  height: 25%;
-  left: 25%;
+@media (max-width: 500px) {.bike {width: 100%; }}
+@media (min-width: 700px) {
+  .hornet, .kymco {
+    width: 50%;
+    float: left;
+  }
+  .cbf {
+    width: 50%;
+  }
 }
